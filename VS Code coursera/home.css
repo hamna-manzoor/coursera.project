@@ -1,0 +1,162 @@
+#pic {
+    position: relative;
+    left: 170px;
+    top: 20px;
+    height: 250px;
+    width: 900px;
+}
+
+#txt1 {
+    position: relative;
+    color: darkblue;
+    top: 10px;
+    font-size: xx-large;
+
+}
+
+#txt2 {
+    position: relative;
+    bottom: 20px;
+
+}
+
+.class {
+    display: flex;
+}
+
+.circle1 {
+    width: 300px;
+    height: 430px;
+    background-color: lightsalmon;
+    position: relative;
+    left: 120px;
+}
+
+.circle2 {
+    width: 300px;
+    height: 430px;
+    background-color: lightsalmon;
+    position: relative;
+    left: 140px;
+}
+
+.circle3 {
+    width: 300px;
+    height: 430px;
+    background-color: lightsalmon;
+    position: relative;
+    left: 160px;
+}
+
+.circle4 {
+    width: 950px;
+    height: 350px;
+    background-color: lightsalmon;
+    position: relative;
+    left: 120px;
+    top: 50px;
+}
+
+#para1 {
+    text-align: center;
+}
+
+#img1,
+#img2,
+#img3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#btn3 {
+    width: 120px;
+    background-color: darkblue;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+#same {
+    background-color: darkblue;
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+
+#form1 {
+    position: relative;
+    top: 40px;
+}
+
+#rect {
+    width: 50px;
+    height: 20px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 410px;
+    bottom: 35px;
+}
+
+#rect1 {
+    width: 50px;
+    height: 20px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 420px;
+    bottom: 35px;
+}
+
+#rect2 {
+    width: 80px;
+    height: 20px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 430px;
+    bottom: 35px;
+}
+#rect3{
+    width: 80px;
+    height: 20px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 320px;
+    bottom: 10px;
+    margin: 10px;
+    
+}
+
+#flex {
+    display: flex;
+}
+#skills{
+    position: relative;
+    top: 170px;
+    text-align: center;
+}
+#end{
+    width: 1150px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+}

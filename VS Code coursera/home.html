@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body style="background-color: orange;">
+    <img id="pic" style="align-items: center;" src="Balcony.webp" alt="Balcony">
+    <b>
+        <p id="txt1" style="text-align: center;">Hamna Manzoor<br></p>
+        <p id="txt2" style="text-align: center;">Web Developer
+    </b></p>
+    <p style="text-align: center; position: relative; bottom: 30px;">I am a student of Software Engineering.I am from
+        Pakistan.I am 20 years old <br> and I have interest in Web Development and I want to do lot of work in it. </p>
+    <p style="text-align: center; position: relative; bottom: 30px; font-size: x-large;"><b>Portfolio</b></p>
+    <div class="class">
+        <div class="circle1">
+            <img id="img1" src="weatherforecast.png" alt="Jerry"><br>
+            <label>
+                <p id="para1"><b>PakOrbit</b><br>
+                    Weather Forecast written in Javascript
+            </label>
+            <button style="width: 100px;
+            background-color: darkblue;
+            color: white;
+            position: relative;
+            top: 10px; height: 40px;" onclick="tryit()">Try it Out</button>
+            </p>
+        </div>
+        <div class="circle2">
+            <img id="img2" src="illustrator.png" alt="Jerry"><br>
+            <label>
+                <p id="para1"><b>Illustrator Art</b><br>
+                    Traced from Paper and Coloured
+            </label><br>
+            <button style="width: 150px;
+            background-color: darkblue;
+            color: white;
+            position: relative;
+            top: 10px; height: 40px;" onclick="closerlook()">Take a closer Look</button>
+            </p>
+        </div>
+        <div class="circle3">
+            <img id="img3" src="Github.png" alt="Jerry"><br>
+            <label>
+                <p id="para1"><b>Github</b><br>
+                    Take a look at my Github Account
+            </label><br>
+            <button style="width: 120px;
+            background-color: darkblue;
+            color: white;
+            position: relative;
+            top: 10px; height: 40px;" onclick="githubaccount()">Go to My Github</button>
+            </p>
+        </div>
+    </div>
+    <div class="circle4">
+        <p style="text-align: center; position: relative; top: 50px; font-size: x-large;"><b>Take a break and Be
+                Resposible</b></p><br><br>
+        <form id="form1" style="text-align: center;" onsubmit="event.preventDefault(); subtractValues();">
+            <label for="value1">Total Monthly Income:</label>
+            <input type="text" id="value1" name="value1" placeholder="Enter the total income"><br><br>
+
+            <label for="value2">Total Monthly Expenses:</label>
+            <input type="text" id="value2" name="value2" placeholder="Enter the total expenses"><br><br>
+
+            <button type="button" id="same" onclick="subtractValues()">Savings</button>
+            <button id="same">Reset</button><br><br>
+
+            <label for="result">Total Savings:</label>
+            <input type="text" id="result" name="result" placeholder="Total Savings" readonly>
+        </form><br><br>
+        <p style="position: relative; left: 320px;">Powered by:</p>
+        <div id="flex" title="This tells about the technologies i used">
+            <div id="rect">
+                HTML
+            </div>
+            <div id="rect1">
+                CSS
+            </div>
+            <div id="rect2">
+                Javascript
+            </div>
+        </div>
+        <b>
+            <p style="text-align: center; color: darkblue; font-size: x-large; margin-top: 40px;">Skill Summary</p>
+        </b>
+        <div id="flex" title="This tells about the technologies i used">
+            <div id="rect3" title="This tells about the technologies i used">
+                HTML
+            </div>
+            <div id="rect3">
+                CSS
+            </div>
+            <div id="rect3">
+                Javascript
+            </div>
+        </div>
+    </div>
+    <div id="skills"><p>★  Front-end Web Developer</p>
+        <p>★  Basic Mobile Application Developer for Android</p>
+        <p>★  Basic Graphic Designer using Canva</p></div>
+        <b>
+            <p style="text-align: center; color: darkblue; font-size: x-large; margin-top: 250px;">Education</p>
+           <p style="position: relative; bottom:10px; left: 520px;"> UAF,Faisalbad,Pakistan</p>
+            <p style="position: relative; bottom:10px; left: 480px; color: lightslategray;">Bachelors of Software Engineering</p>
+            <p style="text-align: center; color: darkblue; font-size: x-large; margin-top: 50px;">Contact</p>
+            <p title="Tap here to email me" style="text-align: center;">Email:<a href="mailto:hamnamanzoor05@gmail.com">hamnamanzoor05@gmail.com</a></p>
+            <p title="Tap here to go to my linkedin profile" style="text-align: center;">Linkedin:<a style="color: blue;" href="https://www.linkedin.com/in/hamna-manzoor-6baa7327b/">Hamna Manzoor</a></p>
+        </b><br><br>
+        <img id="end" src="tower21.png" alt="Tower">
+        <p style="text-align: center;">© Copyright 2024 Hamna Manzoor</p><br><br><br><br>
+    <script src="home.js"></script>
+</body>
+
+</html>

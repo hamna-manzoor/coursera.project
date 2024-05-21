@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EurOrbit</title>
+    <link rel="stylesheet" href="eurobit.css">
+</head>
+
+<body>
+    <div style="background-color: darkblue; height: 750px; width: 1230px;">
+        <img id="img" src="earth.png" alt="Earth">
+        <b>
+            <p style="text-align: center; font-size: xx-large; color: yellow;">PakOrbit</p>
+        </b>
+        <b>
+            <p style="text-align: center; font-size: xx-large; color: white;">Pakistan Weather Forecast</p>
+        </b>
+        <div id="flex" title="This tells about the technologies i used">
+            <p id="p1" style="color: white;"><b>Powered by:</b>
+            <p title="Tap to visit 7Timer" id="timer">
+                <button onclick="Timer()">7Timer!</button>
+            </p>
+            </p>
+        </div>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="weather" onclick="getWeather()">Get Weather</button>
+        <div id="result"></div>
+    </div>
+    <script src="eurobit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+#img{
+    width: 1230px;
+    height: 250px;
+}
+#timer{
+    width: 80px;
+    height: 20px;
+    /* background-color: darkblue;
+    border: 2px solid white; */
+    color: white;
+    position: relative;
+    left: 580px;
+    bottom: 37px;
+    margin: 10px;
+}
+#p1{
+    position: relative;
+    left: 500px;
+
+}
+#city{
+    position: relative;
+    left: 420px;
+}
+#weather{
+    position: relative;
+    left: 430px;
+}
+#result{
+    color: white;
+    position: relative;
+    text-align: center;
+}
